@@ -1,0 +1,226 @@
+.bara-sus{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 65px;
+  background-color: rgb(15, 15, 15);
+}
+.total-stanga{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  padding-right: 10px;
+}
+.buton-3linii{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin-right: 20px;
+  margin-left:22px;
+  padding: 0;
+}
+.img-3linii{
+  width: 20px;
+  color: white;
+  filter: invert(1);
+}
+.logo{
+  height: 28px;
+  width: 85px;
+  object-fit: cover;
+  mix-blend-mode:lighten;
+  
+}
+.total-plus-microfon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.total{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: rgb(18,18,18);
+  border-radius: 50px;
+  height: 40px;
+  width: calc(100% - 40px);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(48,48,48);
+}
+.search{
+  color: white;
+  background-color: transparent;
+  margin-left: 10px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-weight: 540;
+  font-size:14px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#search::placeholder{
+  font-weight: 550;
+}
+.search:focus {
+  outline: none;
+}
+.tast-lupa{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.exttast{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left:10px;
+  margin-right: 10px;
+  
+}
+.tastatura{
+  width: 20px;
+  height: 13px;
+  filter: invert(1);
+}
+.tastatura:hover{
+  filter: invert(0);
+}
+.extlupa{
+  background-color: rgb(33,34,34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 60px;
+  border-radius: 0 50px 50px 0;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 2px;
+  border-color: rgb(48,48,48);
+}
+.lupa{
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+.microfon{
+  background-color:rgb(48,48,48); ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  width: 41px;
+  height: 41px;
+  min-width: 41px;
+  border-radius: 50px;
+  
+}
+.imgmicrofon{
+  width: 20px;
+  height: 23px;
+  filter: invert(0.8);
+}
+.imgmic{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+.microfon-mic{
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgmicrofon-mic{
+  width: 20px;
+  height: 23px;
+  filter: invert(0.8);
+}
+.lupa-mic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imglupa-mic{
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+
+.total-dreapta{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.upload{
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.upload:hover{
+  background-color: rgb(48,48,48);
+}
+.imgupload{
+  height: 18px;
+  filter: invert(0.8);
+}
+
+.bell{
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+}
+.bell:hover{
+  background-color:rgb(48,48,48) ;
+}
+.imgbell{
+  height: 24px;
+  filter: invert(0.8);
+}
+
+
+.pfp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgpfp{
+  height: 32px;
+  border-radius: 50px;
+}
+@media (max-width: 510px){
+  .total-plus-microfon{
+    display: none;
+  }
+  .total-dreapta{
+    margin-left: 0;
+  }
+  .imgmic{
+    display: flex;
+  }
+}

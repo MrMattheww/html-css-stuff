@@ -1,0 +1,8 @@
+.bara-stanga{
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width:70px;
+  height: 100%;
+  background-color: rgb(99, 99, 99);
+}
